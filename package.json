@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "Trott/cheesy-metal",
   "bin": {
-    "metal-name": "cli.js"
+    "cheesy-metal": "cli.js"
   },
   "author": {
     "name": "Rich Trott",
