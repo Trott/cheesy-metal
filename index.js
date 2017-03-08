@@ -1,6 +1,6 @@
 'use strict';
-const metal = require('metal-name')();
-const cheese = require('cheese-name')();
+const metal = require('metal-name');
+const cheese = require('cheese-name');
 
 const first = (text) => {
   return text.split(' ')[0];
@@ -11,7 +11,10 @@ const last = (text) => {
 };
 
 module.exports = function () {
+  let cheeseName = cheese();
+  let metalName = metal();
+
   if (Math.random() < 0.5)
-	 return `${first(cheese)} ${last(metal)}`;
-  return `${first(metal)} ${last(cheese)}`;
+	 return `${first(cheeseName)} ${last(metalName)}`;
+  return `${first(metalName)} ${last(cheeseName)}`;
 };
