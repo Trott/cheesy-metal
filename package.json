@@ -1,0 +1,47 @@
+{
+  "name": "cheesy-metal",
+  "version": "1.1.1",
+  "description": "Cheesy metal band name generator",
+  "license": "MIT",
+  "repository": "Trott/cheesy-metal",
+  "bin": {
+    "metal-name": "cli.js"
+  },
+  "author": {
+    "name": "Rich Trott",
+    "email": "rtrott@gmail.com"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cheese",
+    "cli-app",
+    "cli",
+    "bin",
+    "heavy-metal",
+    "metal",
+    "word",
+    "words",
+    "list",
+    "array",
+    "random",
+    "rand"
+  ],
+  "dependencies": {
+    "cheese-name": "^1.0.0",
+    "lodash": "^3.3.0",
+    "meow": "^2.1.0",
+    "metal-name": "^1.1.1"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
