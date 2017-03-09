@@ -12,7 +12,7 @@
     "email": "rtrott@gmail.com"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   },
   "scripts": {
     "test": "node test.js"
@@ -39,7 +39,7 @@
     "cheese-name": "^1.0.0",
     "lodash": "^3.3.0",
     "meow": "^2.1.0",
-    "metal-name": "^1.1.1"
+    "metal-name": "^1.2.0"
   },
   "devDependencies": {
     "ava": "0.0.4"
