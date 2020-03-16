@@ -15,7 +15,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "ava test.js"
   },
   "files": [
     "index.js",
@@ -37,10 +37,10 @@
   ],
   "dependencies": {
     "cheese-name": "^1.0.0",
-    "meow": "^2.1.0",
+    "meow": "^6.0.1",
     "metal-name": "^1.3.1"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "^3.5.0"
   }
 }
