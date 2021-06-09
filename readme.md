@@ -1,4 +1,4 @@
-# cheesy-metal [![Build Status](https://travis-ci.org/Trott/cheesy-metal.svg?branch=master)](https://travis-ci.org/Trott/cheesy-metal)
+# cheesy-metal
 
 > Cheesy metal band name generator
 
