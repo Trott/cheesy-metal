@@ -1,18 +1,16 @@
 'use strict'
-var test = require('ava')
-var cheese = require('./')
+const cheese = require('./')
+const assert = require('assert')
 
-test('returns a random name', function (t) {
-  t.assert(cheese().length > 0)
-})
+// returns a random name
+assert.ok(cheese().length > 0)
 
-test('returns a two-part name', function (t) {
-  t.assert(cheese().indexOf(' ') !== -1)
-})
+// returns a two-part name
+assert.notStrictEqual(cheese().indexOf(' '), -1)
 
-test('returns a different name each call', function (t) {
-  // Make sure there's variety.
+// returns a different name each call
+{
   const names = [cheese(), cheese(), cheese(), cheese(), cheese(), cheese()]
   const unique = names.filter((val, idx, arr) => arr.indexOf(val) === idx)
-  t.assert(unique.length > 3)
-})
+  assert.ok(unique.length > 3)
+}
