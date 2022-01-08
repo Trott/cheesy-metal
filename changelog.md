@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/Trott/cheesy-metal/compare/v5.0.0...v5.0.1) (2022-01-08)
+
+
+### Bug Fixes
+
+* add exports and main fields to package.json ([#28](https://github.com/Trott/cheesy-metal/issues/28)) ([ab1942d](https://github.com/Trott/cheesy-metal/commit/ab1942dcd20b959fcd6f66011ce5d8b39cbaa225))
+
 # [5.0.0](https://github.com/Trott/cheesy-metal/compare/v4.0.0...v5.0.0) (2022-01-08)
 
 
