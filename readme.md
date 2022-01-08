@@ -12,10 +12,10 @@ $ npm install --save cheesy-metal
 ## Usage
 
 ```js
-import cheese from 'cheesy-metal'
+import cheese from 'cheesy-metal';
 
-cheese();
-//=> 'Munster Toad'
+console.log(cheese());
+//=> 'Devastating Gorgonzola'
 ```
 
 
