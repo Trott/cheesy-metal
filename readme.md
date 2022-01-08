@@ -12,7 +12,7 @@ $ npm install --save cheesy-metal
 ## Usage
 
 ```js
-var cheese = require('cheesy-metal');
+import cheese from 'cheesy-metal'
 
 cheese();
 //=> 'Munster Toad'

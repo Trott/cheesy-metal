@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-'use strict'
-const meow = require('meow')
-const cheese = require('./')
+import meow from 'meow'
+import cheese from './index.js'
 
 meow({
   help: [
     'Examples',
     '  $ cheesy-metal',
     '  Queso Cult'
-  ].join('\n')
+  ].join('\n'),
+  importMeta: import.meta
 })
 
 console.log(cheese())
