@@ -3,6 +3,8 @@
   "version": "5.0.0",
   "description": "Cheesy metal band name generator",
   "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
   "license": "MIT",
   "repository": "Trott/cheesy-metal",
   "bin": {
