@@ -1,6 +1,6 @@
 'use strict'
-const cheese = require('./')
-const assert = require('assert')
+import cheese from './index.js'
+import assert from 'node:assert'
 
 // returns a random name
 assert.ok(cheese().length > 0)

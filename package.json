@@ -2,6 +2,7 @@
   "name": "cheesy-metal",
   "version": "4.0.0",
   "description": "Cheesy metal band name generator",
+  "type": "module",
   "license": "MIT",
   "repository": "Trott/cheesy-metal",
   "bin": {
@@ -37,7 +38,7 @@
   ],
   "dependencies": {
     "cheese-name": "^2.0.1",
-    "meow": "^7.0.1",
+    "meow": "^10.1.2",
     "metal-name": "^2.1.0"
   },
   "devDependencies": {

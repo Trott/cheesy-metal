@@ -1,8 +1,7 @@
-'use strict'
-const metal = require('metal-name')
-const cheese = require('cheese-name')
+import metal from 'metal-name'
+import cheese from 'cheese-name'
 
-module.exports = function () {
+export default function () {
   if (Math.random() < 0.5) { return `${metal({ fragment: 'start' })} ${cheese()}` }
   return `${cheese()} ${metal({ fragment: 'end' })}`
 }
