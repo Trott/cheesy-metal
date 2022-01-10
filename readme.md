@@ -21,11 +21,11 @@ console.log(cheese());
 
 ## API
 
-### ()
+### `cheese()`
 
 Type: `string`
 
-Random cheesy metal band name.
+Returns a random cheesy metal band name.
 
 
 ## CLI
@@ -34,12 +34,10 @@ Random cheesy metal band name.
 $ npm install --global cheesy-metal
 ```
 
-```
-$ cheesy-metal --help
-
-  Examples
-    $ metal-name
-    Corrosive Friesian
+```console
+$ cheesy-metal
+Cheddar Apocalypse
+$
 ```
 
 ## License
