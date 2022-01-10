@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/Trott/cheesy-metal/compare/v5.0.1...v5.0.2) (2022-01-10)
+
+
+### Bug Fixes
+
+* correct documentation errors ([#29](https://github.com/Trott/cheesy-metal/issues/29)) ([c0adf6a](https://github.com/Trott/cheesy-metal/commit/c0adf6affe861b2093e37313b06bdbccc17df7e4))
+
 ## [5.0.1](https://github.com/Trott/cheesy-metal/compare/v5.0.0...v5.0.1) (2022-01-08)
 
 

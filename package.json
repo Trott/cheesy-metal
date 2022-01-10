@@ -1,6 +1,6 @@
 {
   "name": "cheesy-metal",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Cheesy metal band name generator",
   "type": "module",
   "exports": "./index.js",
