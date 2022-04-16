@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/Trott/cheesy-metal/compare/v5.0.2...v6.0.0) (2022-04-16)
+
+
+### Features
+
+* add TypeScript types ([#36](https://github.com/Trott/cheesy-metal/issues/36)) ([d1e2502](https://github.com/Trott/cheesy-metal/commit/d1e250229fab34b6749be0501463615fa19e64b7))
+
+
+### BREAKING CHANGES
+
+* removed --help option from CLI
+
 ## [5.0.2](https://github.com/Trott/cheesy-metal/compare/v5.0.1...v5.0.2) (2022-01-10)
 
 
