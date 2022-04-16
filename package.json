@@ -18,9 +18,10 @@
     "node": ">=12.0.0"
   },
   "scripts": {
-    "test": "standard && c8 --check-coverage --lines 100 --functions 100 --branches 100 node test.js"
+    "test": "tsc && ts-standard -p tsconfig.json && c8 --100 node test.js"
   },
   "files": [
+    "index.d.ts",
     "index.js",
     "cli.js"
   ],
@@ -40,15 +41,22 @@
   ],
   "dependencies": {
     "cheese-name": "^2.0.1",
-    "meow": "^10.1.2",
     "metal-name": "^2.1.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@types/node": "^17.0.24",
     "c8": "7.11",
     "semantic-release": "^19.0.2",
-    "standard": "^16.0.4"
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.7.0-dev.20220416"
+  },
+  "ts-standard": {
+    "ignore": [
+      "**/*.js",
+      "**/*.d.ts"
+    ]
   },
   "release": {
     "branches": [
