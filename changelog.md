@@ -1,3 +1,10 @@
+# [6.1.0](https://github.com/Trott/cheesy-metal/compare/v6.0.0...v6.1.0) (2023-02-04)
+
+
+### Features
+
+* update metal-name to 2.3.0 ([#43](https://github.com/Trott/cheesy-metal/issues/43)) ([e6e1b6f](https://github.com/Trott/cheesy-metal/commit/e6e1b6f59b525ad366cbc92f4fdcf2e729c1dcde))
+
 # [6.0.0](https://github.com/Trott/cheesy-metal/compare/v5.0.2...v6.0.0) (2022-04-16)
 
 
